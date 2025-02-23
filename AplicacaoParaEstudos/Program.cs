@@ -44,5 +44,9 @@ void CadastrarContato(Contato contato)
     Console.Write("Digite o genero: ");
     contato.Pessoa.Genero = char.Parse(Console.ReadLine());
 
-    Console.WriteLine();
+    Console.Write("Digite a rua: ");
+    contato.Endereco.Rua = Console.ReadLine();
+
+    Console.Write("Digite o número da casa: ");
+    contato.Endereco.NumeroCasa = int.Parse(Console.ReadLine());
 }
