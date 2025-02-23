@@ -17,7 +17,7 @@ opcao = int.Parse(Console.ReadLine());
 switch (opcao)
 {
     case 0:
-        CadastrarContato(contato);
+        CadastrarContato(contato);//implementar validacoes.
         break;
 
     case 1:
